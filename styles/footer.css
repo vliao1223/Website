@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    bottom: 0px;
+    height: 200px;
+    background-color: rgb(34, 34, 59);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: end;
+}
+
+.footer-top {
+    flex: 1;
+}
+
+.footer-bottom {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-center {
+    flex: 2;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: end;
+}
+
+.footer-text {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+}
