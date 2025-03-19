@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/body.css">
         <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/buttons.css">
         <link rel="stylesheet" href="styles/photo-gallery.css">
 
         <!-- javascript file -->
@@ -31,23 +32,28 @@
         <!-- Header/Navigation Bar -->
         <div class="header">
             <div class="name">
-                <p style="color: white;">vincent.<p>
+                <p class="logo">vincent.<p>
             </div>
             <div class="header-right">
                 <div class="webpages">
-                    <a class="nav-link" href="#about-me">About</a>
+                    <a class="nav-link" href="#introduction">HOME</a>
                 </div>
                 <div class="webpages">
-                    <a class="nav-link" href="#contacts">Contact</a>
+                    <a class="nav-link" href="#about-me">ABOUT</a>
+                </div>
+                <div class="webpages">
+                    <a class="nav-link" href="#contacts">CONTACT</a>
                 </div>
             </div>
         </div>
 
-        <div class="main-content">
+        <div class="main-content" id="introduction">
             <div class="main-left">
                 <h1>Hello, I am</h1>
-                <h1>Vincent Liao</h1>
-                <p>Statistics and Computer Science @ UChicago</p>
+                <h1 class="maroon">Vincent Liao</h1>
+                <p>
+                    —Statistics and Computer Science major @ <a class="in-text" href="https://www.uchicago.edu/en">UChicago</a>
+                </p>
                 <div class="main-content-btns">
                     <button class="about-me-btn">About Me</button>
                     <button class="contact-btn">Contact</button>
@@ -57,18 +63,43 @@
         </div>
 
         <div class="about-me" id="about-me">
-            <h1>
+            
+            <h1 class="center-heading">
                 About Me
             </h1>
-            <p>
-                Hi!
-            </p>
+            
+            <div class="hometown">
+                <div class="hometown-left">
+                    <h2>I was born and raised in Edison, New Jersey. My birthday is December 23.</h2>
+                </div>
+                <div class="hometown-right">
+
+                </div>
+            </div>
+
+            <div class="hobbies">
+                <div class="hobbies-left">
+
+                </div>
+                <div class="hobbies-right">
+                    <h2>I enjoy drawing, photographing, and listening to music.</h2>
+                </div>
+            </div>
+
+            <div class="more">
+                <div class="more-left">
+                    <h2>I am also a boba connoisseur!</h2>
+                </div>
+                <div class="more-right">
+                    
+                </div>
+            </div>
 
         </div>
 
         <div class="footer" id="contacts">
             <div class="footer-top">
-                <h1 style="color: #ffffff;">Contact</h1>
+                <h1 style="color: black;">Contact</h1>
             </div>
             <hr>
             <div class="footer-bottom">
@@ -86,11 +117,11 @@
                     -->
 
                     <a href="https://www.instagram.com/">
-                        <i class="fa-brands fa-instagram" style="color: #ffffff; margin-left: 20px;"></i>
+                        <i class="fa-brands fa-instagram" style="color: black; margin-left: 20px;"></i>
                     </a>
     
                     <a href="https://x.com/home?lang=en">
-                        <i class="fa-brands fa-twitter" style="color: #ffffff; margin-left: 20px;"></i>
+                        <i class="fa-brands fa-twitter" style="color: black; margin-left: 20px;"></i>
                     </a>
                     <!-- <i class="fa-brands fa-github" style="color: #ffffff;"></i>
                     <i class="fa-regular fa-envelope" style="color: #ffffff;"></i> -->

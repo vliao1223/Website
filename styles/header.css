@@ -4,7 +4,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    background-color: rgb(34, 34, 59);
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,8 +29,9 @@
 }
 
 a.nav-link, a.nav-link:visited {
-    font-family: EB Garamond;
-    color: white;
+    font-family: Inter;
+    color: black;
+    font-weight: 300;
     text-decoration: none;
     cursor: pointer;
     transition: opacity 0.3s;
