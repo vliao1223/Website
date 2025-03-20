@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding: 70px;
+    scroll-padding: 72px;
 }
 
 body {
@@ -21,7 +21,7 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 18px;
 }
 
 p, a {
@@ -49,7 +49,7 @@ a.in-text, a.in-text:visited {
 
 hr {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(254, 200, 154);
     border-radius: 1px;
 }
   
@@ -61,4 +61,19 @@ hr {
 
 .maroon {
     color: rgb(231, 111, 81);
+}
+
+.photo {
+    width: 95%;
+    height: 80%;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.photo-credit {
+    text-align: end;
+    font-style: italic;
 }
