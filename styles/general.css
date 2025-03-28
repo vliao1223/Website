@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "SN Pro";
+    src: url("SNPro/SNPro-VariableRegular.woff2") format("woff2");
+    font-weight: 200 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SN Pro";
+    src: url("SNPro/SNPro-VariableItalic.woff2") format("woff2-variations");
+    font-weight: 200 900;
+    font-style: italic;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding: 72px;
@@ -9,15 +23,15 @@ body {
 }
 
 h1 {
-    font-family: Inter;
-    font-weight: 700;
+    font-family: "SN Pro";
+    font-weight: 500;
     font-size: 72px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 h2 {
-    font-family: Inter;
+    font-family: "SN Pro";
     font-weight: 700;
     font-size: 36px;
     margin-top: 0;
@@ -25,7 +39,7 @@ h2 {
 }
 
 p, a {
-    font-family: Inter;
+    font-family: "SN Pro";
     font-weight: 400;
     font-size: 18px;
     margin-top: 0;
@@ -54,12 +68,15 @@ hr {
 }
   
 .logo {
-    color: rgb(254, 200, 154);
     font-weight: 700;
     font-size: 24px;
+    background-image: linear-gradient(to bottom, rgb(254, 200, 154), orange);
+    color: transparent;
+    background-clip: text;
+    display: inline;
 }
 
-.maroon {
+.red {
     color: rgb(231, 111, 81);
 }
 
